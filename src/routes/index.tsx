@@ -347,7 +347,7 @@ function Transparency() {
         <Card className="rounded-3xl border-border bg-warm p-8 shadow-soft">
           <Quote className="h-8 w-8 text-primary" />
           <p className="mt-3 font-display text-2xl leading-snug text-foreground text-balance">
-            "I used to give to whatever felt right. Now I know — to the euro — what my gift does. It's the most rewarding habit I have."
+            "I used to give to whatever felt right. Now I know, to the euro, what my gift does. It's the most rewarding habit I have."
           </p>
           <div className="mt-5 flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground font-semibold">

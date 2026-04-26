@@ -30,8 +30,9 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold">Contact</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li>hello@givewise.org</li>
-            <li>Stockholm · Sweden</li>
+            <li>GeEffektivt</li>
+            <li>info@geeffektivt.se</li>
+            <li>+46 760 22 83 74</li>
           </ul>
         </div>
       </div>
