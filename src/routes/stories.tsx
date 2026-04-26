@@ -4,6 +4,7 @@ import { useInView } from "@/hooks/use-in-view";
 import storyAmara from "@/assets/story-amara.jpg";
 import storyDist from "@/assets/story-distribution.jpg";
 import storyThriving from "@/assets/story-thriving.jpg";
+import storyEsi from "@/assets/story-esi.jpg";
 import heroImg from "@/assets/hero-mother-child.jpg";
 
 export const Route = createFileRoute("/stories")({
@@ -48,7 +49,7 @@ const STORIES = [
   {
     name: "Esi, 9",
     place: "Coastal Ghana",
-    img: storyAmara,
+    img: storyEsi,
     body: "Esi received a deworming treatment at school. Three months later, her teachers report sharper focus and energy. She wants to be a doctor.",
     metric: "€0.50 changed her year",
   },
