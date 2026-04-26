@@ -34,10 +34,10 @@ export function computeImpact(amount: number) {
 
 export function impactPhrase(amount: number) {
   const { peopleProtected, nets } = computeImpact(amount);
-  if (amount >= 100) return `Help save a life — ${peopleProtected} people protected`;
-  if (amount >= 50) return `Shield a family — ${peopleProtected} people protected`;
-  if (amount >= 25) return `${nets} mosquito nets — protects ${peopleProtected} people`;
-  if (amount >= 10) return `${nets} mosquito nets — protects ${peopleProtected} people`;
+  if (amount >= 100) return `Help save a life: ${peopleProtected} people protected`;
+  if (amount >= 50) return `Shield a family: ${peopleProtected} people protected`;
+  if (amount >= 25) return `${nets} mosquito nets, protects ${peopleProtected} people`;
+  if (amount >= 10) return `${nets} mosquito nets, protects ${peopleProtected} people`;
   return `Every euro counts`;
 }
 

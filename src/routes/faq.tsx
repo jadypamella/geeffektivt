@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "FAQ — Common questions | GiveWise" },
+      { title: "FAQ: Common questions | GiveWise" },
       {
         name: "description",
         content:
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/faq")({
 const FAQS = [
   {
     q: "Why these specific charities?",
-    a: "We only recommend organizations whose impact has been independently verified — typically by GiveWell, Founders Pledge, or peer-reviewed evidence. The bar is high: only a few dozen charities globally meet it.",
+    a: "We only recommend organizations whose impact has been independently verified, typically by GiveWell, Founders Pledge, or peer-reviewed evidence. The bar is high: only a few dozen charities globally meet it.",
   },
   {
     q: "How do you know mosquito nets actually save lives?",
@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     q: "Can I cancel my monthly donation?",
-    a: "Yes — anytime, in one click, no questions asked. We believe a great relationship with donors is built on trust, not lock-in.",
+    a: "Yes, anytime, in one click, no questions asked. We believe a great relationship with donors is built on trust, not lock-in.",
   },
   {
     q: "Is my donation tax-deductible?",
@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     q: "Why focus on global health instead of local causes?",
-    a: "We focus where each euro creates the most measurable good. Due to economic differences, the same gift saves vastly more lives in low-income regions than in high-income ones — about 100×, by current best estimates.",
+    a: "We focus where each euro creates the most measurable good. Due to economic differences, the same gift saves vastly more lives in low-income regions than in high-income ones, about 100×, by current best estimates.",
   },
   {
     q: "How is my payment data secured?",

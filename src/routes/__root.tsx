@@ -37,7 +37,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Evidence-based giving. Your donation goes to charities proven to save and improve lives — every euro tracked, every life real.",
+          "Evidence-based giving. Your donation goes to charities proven to save and improve lives, every euro tracked, every life real.",
       },
       { name: "author", content: "GiveWise" },
       { property: "og:title", content: "Ge Effektivt - Save a life today, for less than a dinner" },

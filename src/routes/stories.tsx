@@ -9,11 +9,11 @@ import heroImg from "@/assets/hero-mother-child.jpg";
 export const Route = createFileRoute("/stories")({
   head: () => ({
     meta: [
-      { title: "Stories — Real lives, real change | GiveWise" },
+      { title: "Stories: Real lives, real change | GiveWise" },
       {
         name: "description",
         content:
-          "Follow your donation through real beneficiary stories. From at-risk to thriving — see the chain of impact every euro creates.",
+          "Follow your donation through real beneficiary stories. From at-risk to thriving, see the chain of impact every euro creates.",
       },
       { property: "og:title", content: "GiveWise Stories" },
       { property: "og:description", content: "Real beneficiary stories. Real impact. Followable." },
@@ -28,7 +28,7 @@ const STORIES = [
     name: "Amara, 6",
     place: "Northern Uganda",
     img: storyAmara,
-    body: "Lives with her mother and three siblings near a river. Before our partner arrived, malaria was a constant threat — her brother was hospitalized twice last year.",
+    body: "Lives with her mother and three siblings near a river. Before our partner arrived, malaria was a constant threat. Her brother was hospitalized twice last year.",
     metric: "Now sleeps under a treated net every night",
   },
   {

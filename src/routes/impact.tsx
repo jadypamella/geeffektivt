@@ -11,7 +11,7 @@ import heroImg from "@/assets/hero-mother-child.jpg";
 export const Route = createFileRoute("/impact")({
   head: () => ({
     meta: [
-      { title: "Impact — Where every euro goes | GiveWise" },
+      { title: "Impact: Where every euro goes | GiveWise" },
       {
         name: "description",
         content:
@@ -41,7 +41,7 @@ function ImpactPage() {
           Money in. Lives out. No mystery.
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-muted-foreground text-pretty">
-          We don't ask for trust — we earn it. Every figure below is grounded in independent
+          We don't ask for trust. We earn it. Every figure below is grounded in independent
           evaluations of the world's most cost-effective charities.
         </p>
       </section>

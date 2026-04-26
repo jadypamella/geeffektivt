@@ -8,7 +8,7 @@ import storyDist from "@/assets/story-distribution.jpg";
 export const Route = createFileRoute("/charities")({
   head: () => ({
     meta: [
-      { title: "Charities — Evidence-based selection | GiveWise" },
+      { title: "Charities: Evidence-based selection | GiveWise" },
       {
         name: "description",
         content:
@@ -37,12 +37,12 @@ const CHARITIES = [
   },
   {
     name: "GiveDirectly",
-    desc: "Direct cash transfers to people living in extreme poverty — among the most rigorously studied interventions in development.",
+    desc: "Direct cash transfers to people living in extreme poverty, among the most rigorously studied interventions in development.",
     metric: "85% reaches recipients",
     tags: ["Cash transfers"],
   },
   {
-    name: "Evidence Action — Deworm the World",
+    name: "Evidence Action: Deworm the World",
     desc: "Mass school-based deworming programs that improve child health, school attendance, and adult earnings.",
     metric: "€0.50 per child treated",
     tags: ["Education impact"],
@@ -72,7 +72,7 @@ function CharitiesPage() {
               "Independent evidence of impact (RCTs preferred)",
               "Cost-effectiveness in the top 1% globally",
               "Operational transparency and audited finances",
-              "Room for more funding — your gift moves the needle",
+              "Room for more funding, your gift moves the needle",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm">
                 <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-success" />
@@ -118,7 +118,7 @@ function CharitiesPage() {
             size="lg"
             className="rounded-full bg-cta-grad px-8 text-primary-foreground shadow-glow"
           >
-            Give to all four — split automatically
+            Give to all four, split automatically
           </Button>
           <p className="mt-2 text-xs text-muted-foreground">We allocate based on current room-for-funding analysis.</p>
         </div>
