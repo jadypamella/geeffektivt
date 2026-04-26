@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-border bg-warm">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div>
-          <img src={logo} alt="GiveWise" className="h-8 w-auto" width={120} height={32} />
+          <img src={logo} alt="Ge Effektivt" className="h-12 w-auto" />
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
             Evidence-based giving. We channel your generosity to charities proven to save and improve lives.
           </p>
