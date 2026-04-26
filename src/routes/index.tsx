@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useDonation, impactPhrase, computeImpact } from "@/lib/donation";
+import { useDonation, computeImpact } from "@/lib/donation";
 import { CountUp } from "@/components/CountUp";
 import { LiveTicker } from "@/components/LiveTicker";
 import { Button } from "@/components/ui/button";
@@ -551,5 +552,3 @@ function Home() {
   );
 }
 
-// useState import for inline state
-import { useState } from "react";
