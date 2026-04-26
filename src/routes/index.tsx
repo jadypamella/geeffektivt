@@ -136,11 +136,13 @@ function Hero() {
 
 function Stat({ label, to }: { label: string; to: number }) {
   return (
-    <div className="bg-background p-5 text-center sm:p-6">
+    <div className="bg-background px-5 py-6 text-center sm:px-6 sm:py-7">
       <div className="font-display text-3xl font-semibold text-foreground sm:text-4xl">
         <CountUp to={to} duration={2200} />
       </div>
-      <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">{label}</div>
+      <div className="mt-2 text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground sm:text-xs">
+        {label}
+      </div>
     </div>
   );
 }
