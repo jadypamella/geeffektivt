@@ -15,7 +15,7 @@ export const Route = createFileRoute("/thank-you")({
   validateSearch: (s) => search.parse(s),
   head: () => ({
     meta: [
-      { title: "Thank you — You just helped save lives | GiveWise" },
+      { title: "Thank you: You just helped save lives | GiveWise" },
       { name: "description", content: "Your donation is locked in. Here's the impact you just made." },
       { property: "og:title", content: "I just helped protect lives 🌍" },
     ],
@@ -49,7 +49,7 @@ function ThankYouPage() {
           You just protected {impact.peopleProtected} {impact.peopleProtected === 1 ? "person" : "people"}.
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-muted-foreground text-pretty">
-          Your €{amount}{freq === "monthly" ? "/month" : ""} gift is locked in. We'll email you a receipt — and updates from the field.
+          Your €{amount}{freq === "monthly" ? "/month" : ""} gift is locked in. We'll email you a receipt and updates from the field.
         </p>
       </section>
 
@@ -97,7 +97,7 @@ function ThankYouPage() {
           {[
             "Receipt and tax-deduction details emailed within minutes.",
             "Your contribution is allocated within 30 days.",
-            "Quarterly updates from the field — real photos, real numbers.",
+            "Quarterly updates from the field with real photos and real numbers.",
           ].map((s, i) => (
             <li key={i} className="flex items-start gap-3">
               <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-semibold text-primary-foreground">

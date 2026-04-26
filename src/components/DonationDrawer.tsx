@@ -144,7 +144,7 @@ export function DonationDrawer() {
               size="lg"
               className="w-full rounded-full bg-cta-grad text-primary-foreground shadow-glow"
             >
-              <Heart className="mr-2 h-4 w-4" /> Continue — €{amount}{frequency === "monthly" ? " / month" : ""}
+              <Heart className="mr-2 h-4 w-4" /> Continue: €{amount}{frequency === "monthly" ? " / month" : ""}
             </Button>
             <p className="flex items-center justify-center gap-1.5 text-center text-xs text-muted-foreground">
               <Shield className="h-3.5 w-3.5" /> Secure · cancel anytime · 100% to charity
@@ -192,7 +192,7 @@ export function DonationDrawer() {
               size="lg"
               className="w-full rounded-full bg-cta-grad text-primary-foreground shadow-glow"
             >
-              Confirm — €{amount}{frequency === "monthly" ? " / month" : ""}
+              Confirm: €{amount}{frequency === "monthly" ? " / month" : ""}
             </Button>
             <button
               onClick={() => setStep(1)}

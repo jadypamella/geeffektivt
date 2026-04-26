@@ -17,13 +17,13 @@ import storyThriving from "@/assets/story-thriving.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "GiveWise — Save a life today, for less than a dinner" },
+      { title: "GiveWise: Save a life today, for less than a dinner" },
       {
         name: "description",
         content:
           "Turn €25 into 5 mosquito nets that protect a family from malaria. Evidence-based giving. 100% transparent.",
       },
-      { property: "og:title", content: "GiveWise — Save a life today" },
+      { property: "og:title", content: "GiveWise: Save a life today" },
       {
         property: "og:description",
         content:
@@ -74,7 +74,7 @@ function Hero() {
           </h1>
 
           <p className="mt-5 max-w-xl text-base text-background/85 text-pretty sm:text-lg">
-            €25 buys 5 mosquito nets — enough to protect a family from malaria for years.
+            €25 buys 5 mosquito nets, enough to protect a family from malaria for years.
             Every euro goes to charities proven, by evidence, to save lives.
           </p>
 
@@ -157,7 +157,7 @@ function ImpactCalculator() {
             Drag the slider. Watch lives change.
           </h2>
           <p className="mt-4 text-muted-foreground text-pretty">
-            We don't ask for your trust — we earn it. Every euro is mapped to a measurable outcome
+            We don't ask for your trust. We earn it. Every euro is mapped to a measurable outcome
             from charities independently verified by the world's top evaluators.
           </p>
 
@@ -251,7 +251,7 @@ function Stories() {
             img={storyDist}
             alt="Health workers distribute mosquito nets"
             title="Nets delivered, training given"
-            body="Local health workers distribute long-lasting nets and teach correct use — verified at the door."
+            body="Local health workers distribute long-lasting nets and teach correct use, verified at the door."
             metric="€25 = 5 nets"
           />
           <StoryCard
@@ -401,7 +401,7 @@ function MonthlyGoal() {
               €{raised.toLocaleString()} of €{goal.toLocaleString()} raised
             </h2>
             <p className="mt-3 max-w-md text-background/75">
-              Help us hit this month's target — every contribution funds nets being shipped next week.
+              Help us hit this month's target. Every contribution funds nets being shipped next week.
             </p>
           </div>
           <div>
@@ -464,7 +464,7 @@ function ContrastSimulation() {
           What if no one donated?
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-          Toggle to see the same village, the same year — with and without your help.
+          Toggle to see the same village, the same year, with and without your help.
         </p>
       </div>
 

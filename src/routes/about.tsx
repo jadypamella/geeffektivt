@@ -7,7 +7,7 @@ import { Compass, Heart, Microscope, Shield } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Why we exist | GiveWise" },
+      { title: "About: Why we exist | GiveWise" },
       {
         name: "description",
         content:
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/about")({
 const VALUES = [
   { icon: Microscope, title: "Evidence over instinct", body: "We follow the data, not the feels. Cold rationality in service of warm outcomes." },
   { icon: Shield, title: "Radical transparency", body: "Every euro is auditable. Operations are funded separately from donations." },
-  { icon: Heart, title: "Donor empowerment", body: "You stay in control. Cancel, adjust, or redirect at any moment — no friction." },
+  { icon: Heart, title: "Donor empowerment", body: "You stay in control. Cancel, adjust, or redirect at any moment, with no friction." },
   { icon: Compass, title: "Independence", body: "We take no commission from charities. Our only loyalty is to outcomes." },
 ];
 
