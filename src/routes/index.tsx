@@ -123,7 +123,7 @@ function Hero() {
       </div>
 
       {/* Live counter strip */}
-      <div className="relative mx-auto -mb-10 max-w-6xl px-6">
+      <div className="relative z-10 mx-auto max-w-6xl px-6 pb-8 sm:pb-10">
         <div className="grid gap-px overflow-hidden rounded-2xl border border-border bg-border shadow-elegant sm:grid-cols-3">
           <Stat label="Lives protected" to={284903} />
           <Stat label="Mosquito nets funded" to={1421604} />
@@ -136,11 +136,11 @@ function Hero() {
 
 function Stat({ label, to }: { label: string; to: number }) {
   return (
-    <div className="bg-background px-5 py-6 text-center sm:px-6 sm:py-7">
+    <div className="flex min-h-32 flex-col items-center justify-center bg-background px-5 py-6 text-center sm:min-h-36 sm:px-6 sm:py-7">
       <div className="font-display text-3xl font-semibold text-foreground sm:text-4xl">
         <CountUp to={to} duration={2200} />
       </div>
-      <div className="mt-2 text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground sm:text-xs">
+      <div className="mt-3 leading-5 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground sm:text-xs">
         {label}
       </div>
     </div>
@@ -542,7 +542,6 @@ function Home() {
   return (
     <>
       <Hero />
-      <div className="h-10" />
       <LiveTicker />
       <TrustEvaluators />
       <ImpactCalculator />
